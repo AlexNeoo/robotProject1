@@ -1,6 +1,7 @@
 def start_calculator():
     print("Calculator Started")
 
+
 def calculate_term(term):
     """
     Interpret term as a mathematical expression
