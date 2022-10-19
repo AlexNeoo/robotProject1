@@ -20,4 +20,4 @@ The Result Should Be "${expected}"
     Should Be Equal As Numbers    ${result}    ${expected}
 
 Say Goodbye!
-    Log To Console    Do wdzenia Robot!
+    Log To Console    Do widzenia Robot!
