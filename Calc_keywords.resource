@@ -19,6 +19,5 @@ The Result Should Be "${expected}"
     Log    Checking Result
     Should Be Equal As Numbers    ${result}    ${expected}
 
-The Test Pi
-    Log    Test pi
-    Print Pi
+Say Goodbye!
+    Log To Console    Do wdzenia Robot!
