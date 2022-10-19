@@ -20,4 +20,4 @@ The Result Should Be "${expected}"
     Should Be Equal As Numbers    ${result}    ${expected}
 
 The Test Finished
-    Log Finished
+    Log    Finished
