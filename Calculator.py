@@ -9,3 +9,7 @@ def calculate_term(term):
     """
     print("Robot Calculating Term:", term)
     return eval(term)
+
+
+def print_pi():
+    print(3.14)
