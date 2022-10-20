@@ -4,8 +4,10 @@ Library    SeleniumLibrary
 
 *** Test Cases ***
 LoginTest
-   Given Open Browser    https://opensource-demo.orangehrmlive.com/     Chrome
-   When Sleep    5
-   Then Close Browser
+   Given Open Browser   https://opensource-demo.orangehrmlive.com/     Chrome
+   When  Input Text     id=txtUsername                                 admin
+   Then  Sleep    5
+   And   Close Browser
+
 
 
